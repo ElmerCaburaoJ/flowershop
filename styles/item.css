@@ -1,0 +1,166 @@
+
+main
+{
+    margin-top: 150px;
+}
+main .center
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .center .div
+{
+    max-width: 1200px;
+    width: 100%;
+}
+
+.item-con .img-con
+{
+    height: 550px;
+}
+
+
+.center .grid
+{
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    gap: 60px;
+}
+
+.item-con .right-con .type
+{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 15px;
+    color: black;
+}
+
+.item-con .right-con h1
+{
+    margin: 0px 0;
+    font-weight: 500;
+    color:#FC819E;
+}
+
+.item-con .right-con .price-div
+{
+    font-weight: 400;
+    color: rgb(105, 105, 105);
+}
+.item-con .right-con .price-div .price
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.item-con .right-con .description
+{
+    font-weight: 300;
+    line-height: 20px;
+    margin-top: 10px;
+    color: rgb(105, 105, 105);
+    font-size: 15px;
+}
+
+.item-con .right-con .add-div
+{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.item-con .right-con .qnty-td
+{
+    display: flex;
+    align-items: center;
+}
+
+.item-con .right-con .qnty-td div
+{
+    padding: 12px 16px;
+    border: 1px solid lightslategray;
+}
+
+.item-con .right-con .qnty-td .qnty-js
+{
+    border-left: none;
+    border-right: none;
+
+}
+
+.item-con .right-con .qnty-js input
+{
+    width: 20px;
+    border: none;
+    text-align: center;
+    outline: none;
+}
+
+.item-con .right-con .minus-btn, .item-con .right-con .add-btn
+{
+    cursor: pointer;
+}
+
+.add-cart
+{
+    background: #fa829e;
+    border: none;
+    padding: 16px 27px;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.add-cart:hover
+{
+    background: #FC819E;
+}
+
+.item-con .right-con .add-div
+{
+    padding-bottom: 40px;
+    border-bottom: 1px solid lightgray;
+}
+
+
+.message-form {
+    width: 300px; /* Adjust as needed */
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    margin-left: 0px;
+}
+
+.message-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.message-form input[type="text"], .message-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.message-form input[type="text"]:focus, .message-form textarea:focus {
+    border-color: #888;
+    outline: none;
+}
+
+.message-form textarea {
+    height: 80px; /* Adjust as needed */
+    resize: vertical; /* Allow vertical resizing */
+}
+
+.message-form label.required::after {
+    content: "*";
+    color: red;
+    margin-left: 5px;
+}
